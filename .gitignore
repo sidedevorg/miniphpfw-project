@@ -1,4 +1,4 @@
+.env
 vendor
 node_modules
-app/.env
 app/storage/route.cache

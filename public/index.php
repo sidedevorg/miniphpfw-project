@@ -15,7 +15,7 @@ require '../vendor/autoload.php';
         'database' => '../app/config/database.php',
         'middlewares' => '../app/config/middlewares.php',
         'routes' => '../app/config/routes.php',
-        'env' => '../app',
+        'env' => '../',
         'view' => '../app/views',
         'i18n' => '../app/langs',
     ],
