@@ -24,6 +24,14 @@
         "App\\": "app/src/App"
     }
   },
+  "scripts": {
+    "post-install-cmd": "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
