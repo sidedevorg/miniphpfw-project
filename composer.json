@@ -1,0 +1,29 @@
+{
+  "name": "sidedevorg/miniphpfw-project",
+  "description": "Template to initialize one project with sidedevorg/miniphpfw",
+  "keywords": ["project","miniphpfw","framework", "php"],
+  "license": "MIT",
+  "homepage": "https://github.com/sidedevorg/miniphpfw-project",
+  "support": {
+    "issues": "https://github.com/sidedevorg/miniphpfw-project/issues",
+    "source": "https://github.com/sidedevorg/miniphpfw-project"
+  },
+  "authors": [
+    {
+      "name": "Diego Vilariño",
+      "email": "diego.vilarino@gmail.com",
+      "homepage": "http://dieg0v.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+      "sidedevorg/miniphpfw": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/src/App"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
