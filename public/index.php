@@ -21,6 +21,7 @@ require '../vendor/autoload.php';
             'view' => '../app/views',
             'i18n' => '../app/langs',
             'routesCache' => '../app/storage/route.cache',
+            'assets_manifest' => 'static/build/mix-manifest.json',
         ],
     ]
 );
