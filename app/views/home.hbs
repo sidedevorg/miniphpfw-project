@@ -1,7 +1,12 @@
-{{> common/header }}
+{{% BLOCKS }}
+{{< layout }}
+{{$ title }}Home{{/ title }}
 
-    <div class="home">
-        <p>project can start ...</p>
-    </div>
+{{$ content }}
 
-{{> common/footer }}
+<div class="home">
+    <p>project can start ...</p>
+</div>
+
+{{/ content }}
+{{/ layout }}

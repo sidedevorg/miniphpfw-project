@@ -1,7 +1,12 @@
-{{> common/header }}
+{{% BLOCKS }}
+{{< layout }}
+{{$ title }}Not found{{/ title }}
 
-    <div class="error-404">
-        <h2>404</h2>
-    </div>
+{{$ content }}
 
-{{> common/footer }}
+<div class="error-404">
+    <h2>404</h2>
+</div>
+
+{{/ content }}
+{{/ layout }}
