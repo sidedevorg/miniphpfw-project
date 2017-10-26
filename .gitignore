@@ -2,4 +2,5 @@
 vendor
 node_modules
 app/storage/route.cache
-tests/_*
+tests/_output
+tests/_support/_generated
