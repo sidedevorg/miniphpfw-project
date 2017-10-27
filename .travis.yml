@@ -6,6 +6,5 @@ php:
 before_script:
   - composer self-update
   - composer install
-  - php -S 0.0.0.0:8181 -t public
 
 script: php vendor/bin/codecept run
