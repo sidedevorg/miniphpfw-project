@@ -1,5 +1,5 @@
 # miniphpfw-project
 
-![travis miniphpfw-project](https://travis-ci.org/sidedevorg/miniphpfw-project.svg?branch=master)
+[![Build Status](https://travis-ci.org/sidedevorg/miniphpfw-project.svg?branch=master)](https://travis-ci.org/sidedevorg/miniphpfw-project)
 
 Template to initialize one project with "sidedevorg/miniphpfw"
