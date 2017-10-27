@@ -1,0 +1,11 @@
+language: php
+
+php:
+  - 7.0
+
+before_script:
+  - composer self-update
+  - composer install
+  - php -S 0.0.0.0:8181 -t public
+
+script: vendor/bin/codecept run
