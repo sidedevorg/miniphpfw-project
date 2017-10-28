@@ -10,7 +10,7 @@ require '../vendor/autoload.php';
 //  Bootstrap
 // ------------------------------------------------------------------
 
-(new SideDevOrg\MiniPhpFw\Bootstrap())->load(
+$response = (new SideDevOrg\MiniPhpFw\Bootstrap())->load(
     [
         'lang' => 'en',
         'paths' => [
@@ -27,4 +27,10 @@ require '../vendor/autoload.php';
             'not_found_controller' => '\App\Controllers\ErrorsController::not_found',
         ]
     ]
-);
+)->getResponse();
+
+// ==================================================================
+//  Emit response
+// ------------------------------------------------------------------
+
+(new \Zend\Diactoros\Response\SapiEmitter())->emit($response);
