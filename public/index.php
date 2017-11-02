@@ -20,7 +20,7 @@ $response = (new SideDevOrg\MiniPhpFw\Bootstrap())->load(
             'env' => '../',
             'view' => '../app/views',
             'i18n' => '../app/langs',
-            'routesCache' => '../app/storage/route.cache',
+            'routesCache' => '../app/storage',
             'assets_manifest' => 'static/build/mix-manifest.json',
         ],
         'config' => [
