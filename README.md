@@ -54,7 +54,7 @@ php -S 0.0.0.0:8181 -t public
 PHP Development Server listening on [http://0.0.0.0:8181](http://0.0.0.0:8181).
 
 For *js/css* development this template use [Laravel Mix](https://github.com/JeffreyWay/laravel-mix), a [Webpack](https://webpack.js.org/) wrapper, and
-for test yor project on diferents devices use [Browsersync](https://www.browsersync.io/).
+for test your project on diferents devices use [Browsersync](https://www.browsersync.io/).
 
 Without kill PHP Development Server, run:
 
