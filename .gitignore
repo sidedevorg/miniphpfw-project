@@ -1,6 +1,7 @@
 .env
 vendor
 node_modules
+npm-debug.log
 app/storage/
 tests/_output
 tests/_support/_generated
