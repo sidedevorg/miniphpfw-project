@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sidedevorg/miniphpfw-project/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/sidedevorg/miniphpfw-project.svg?branch=master)](https://travis-ci.org/sidedevorg/miniphpfw-project)
 
-This is a template to initialize one project with [sidedevorg/miniphpfw](https://github.com/sidedevorg/miniphpfw), is a simple example for rapid prototipe, you can modify file structure as you want.
+This is a template to initialize one project with [sidedevorg/miniphpfw](https://github.com/sidedevorg/miniphpfw), is a simple example for rapid prototype, you can modify file structure as you want.
 
 ## Requirements
 
