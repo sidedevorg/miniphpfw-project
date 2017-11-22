@@ -9,6 +9,13 @@ let mix = require('laravel-mix');
 
 mix.js('app/js/app.js', 'public/static/build')
     .sass('app/styles/app.scss', 'public/static/build')
+    .options({
+        postCss: [
+            require('autoprefixer')({
+                browsers: '>5%'
+            }),
+        ]
+    })
     .combine([
         'node_modules/normalize.css/normalize.css',
         'public/static/build/app.css'
